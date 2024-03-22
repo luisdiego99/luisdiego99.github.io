@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LDHL CV</title>
+    <style>
+        body {
+            font-family: Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #b3a5a5;
+        }
+
+        header {
+            background-color: #333;
+            color: rgb(92, 86, 86);
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .info div {
+            flex: 1;
+            padding: 10px;
+            margin: 0 5px;
+            background-color: #f0f0f0;
+            border-radius: 6px;
+        }
+
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .info {
+                flex-direction: column;
+            }
+
+            .profile-pic {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Currículum</h1>
+    </header>
+
+    <section>
+        <div style="text-align: center;">
+            <img class="profile-pic" src="Images/Knight.PNG" alt="Foto de perfil">
+        </div>
+    </section>
+
+    <section>
+        <h2>DATOS PERSONALES</h2>
+        <div class="info">
+            <div>
+                <h3>Nombre</h3>
+                <p>Diego León</p>
+            </div>
+            <div>
+                <h3>Correo Electrónico</h3>
+                <p>diegotesting@gmail.com</p>
+            </div>
+            <div>
+                <h3>Teléfono</h3>
+                <p>(502) 456-7890</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+        <div>
+            <h3>Barista</h3>
+            <p>&Café - Ciudad de Guatemala, Guatemala | 2016 - 2018</p>
+            <ul>
+                <li>Encargado de caja</li>
+                <li>Preparar Bebidas</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Representante de Servicio al Cliente</h3>
+            <p>Alorica, Ciudad de Guatemala | 2019 - 2024</p>
+            <ul>
+                <li>Representante de Servicio al Cliente</li>
+                <li>Nivel de inglés 95%</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Educación</h2>
+        <div>
+            <h3>Primer año del Técnico en Desarrollo de Software</h3>
+            <p>Galileo, Guatemala | 2024</p>
+            <p>En curso...</p>
+        </div>
+    </section>
+</body>
+</html>
